@@ -20,11 +20,15 @@ int main() {
  
     printf("Digite o número de habitantes da Cidade:");
     scanf("%d", populacao);
-    
-    printf("Digite a área da Cidade em km²:");
-    scanf("%f", area);
 
-     
+    printf("Digite a área da Cidade em km²:");
+    scanf("%d", area);
+
+    printf("Digite o PIB da Cidade:");
+    scanf("%f",PIB);
+
+    printf("Digite a quantiidade de pontos turísticos dda Cidade:");
+    scanf("%d", numero_de_pontos_turisticos);
 
 
 
